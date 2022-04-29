@@ -1,0 +1,38 @@
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras
+explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente
+cualquier agujero en tu comprensión.
+
+Variables
+Una variable es algo así como una cajita donde podemos guardar Valores, le podemos dar un nombre
+a la cajita y allí guardamos cosas como numeros, letras u otros valores.
+
+Strings
+Un String es una cadena de caracteres de texto, es algo así como una palabra, es una de los valores
+que podemos guardar en las cajitas que llamamos variables.
+
+Funciones (argumentos, return)
+Una función es algo que te devuelve un valor, tu le puedes dar un nombre para invocarla en tu código
+y entre paréntesis le puedes enviar valores para que ella los use para encontrar el resultado
+para el cual la creaste, ella usa los valores que le envías y te devuelve el resultado.
+A estos valore que tu le envías entre paréntesis se les llama argumentos.
+
+Para que la función te devuelva el valor que tu necesitas, debes escribir la palabra return seguida
+del nombre del dato que ella debe devolver.
+
+Declaraciones if
+Una declaración if se usa para hacer que un programa tome dos caminos distintos dependiendo de
+una condición, de forma que si la condición se cumple se ejecute ciertas instrucciones, pero en
+el caso que la condición no se cumpla, entonces se va a ejecutar otro grupo de instrucciones.
+
+Valores booleanos (true, false)
+Lo valores booleanos son un tipo de valores que solo pueden tener dos estados: verdadero o falso y
+Sirven para ayudar a definir qué acciones se deben tomar. 
+
+Por ejemplo: tu mamá podría definir cuándo dejarte salir a jugar dependiendo de una condición:
+tucomportamiento = true. 
+
+Ella podría evaluar si se está cumpliendo la condición de que tucomportamient sea igual a true
+(es decir, te estás portando bien), y si la condición se cumple, te deja salir a jugar.
+
+Pero si resulta que al evaluar tucomportamiento resulta que es false, en ese caso tu mamá
+va a saber que no te estás portando bien y no te va a dejar salir.
