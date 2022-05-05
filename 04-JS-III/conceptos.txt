@@ -1,0 +1,10 @@
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Arrays.
+Un array es como una cajita donde puedes guardar colecciones de datos. Puedes acceder a los datos guardados
+en estas colecciones, porque sus ubicaciones dentro de cada coleccion de datos están enumeradas comenzando
+por la posición cero, seguida de la posición 1, posición 2 y así sucesivamente.
+
+Puede hacer lo que quieras con estas coleccione de datos, desde eliminar el contenido de cada posición,
+agregar nuevo contenido, modificar el contenido de cualquier posicion, consultar los datos guardados,
+y muchas cosas más.

@@ -1,0 +1,33 @@
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+Un ciclo for es una instrución que nos permite ejecutar un bloque de codigo repetidas veces
+dependiendo del cumplimiento de una condición.
+
+Es interesante porque te ahorra tener que escribir varias veces el bloque de codigo que debes
+repetir, solo tienes que indicarle con el valor inicial de una variable desde cuando vas a
+comenzar a repetir el bloque de codigo, luego con una condicion le indicas cuando detenerse
+y con una variable de incremento le indicas para que vaya dando las vueltas.
+
+Tienes que escribir algo asi y entre las llaves escribes el bloque de codigo a repetir: 
+
+for(var i=0; i<4; i++){
+
+}
+
+* `&&`
+&& es un operador lógico que te permite comparar al mismo tiempo si se cumplen dos condiciones.
+Te devuelve true si se cumplen al mismo tiempo dos condiciones, en cualquier otro caso devuelve
+false.
+
+Por ejemplo: la comparacion 100 > 10 && 10 === 10 te devuelve true porque ambas condiciones se
+cumplen al mimo tiempo.
+
+
+*`||`
+|| es otro operador lógico, tambien compara si se cumplen dos condiciones, te devuelve true si
+se cumple una de las condicione, y te devuelve false si las dos condiciones no se cumplen.
+
+ `!`
+ ! es el operador logico de negación, te devuelve siempre lo contrario de lo que estés preguntando.
+ Por ejemplo, si le escribes !5>3 te devuelve false.
