@@ -1,0 +1,41 @@
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+Los objetos son como unas cajitas donde podemos guardar colecciones de datos de diferentes tipos,
+junto con una clave para cada valor guardado, estas claves a diferencia de los arreglos, están
+desordenadas y pueden ser numeros pero le puedes poner tanbién letras como claves.
+
+Para crear un objeto debes escribir algo asi:
+var objeto = {clave1: valor 1, clave2: valor 2, ........, claveN:, valorN}
+
+	* Propiedades
+    Los objetos contienen Propiedades, que son combinaciones de clave: valor, donde clave viene siendo como
+    el indice de los arreglos y valor es el dato asociado a esa clave.
+
+	* Métodos
+    Puedes guardar funciones dentro de un objeto, cuando guardas una funcion dentro de un objeto, se les llama
+    metodo.
+
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+    Para acceder a los datos contenidos en un arreglo o en un objeto, puedes usar la notacion de puntos o la 
+    notacion de corchetes.
+
+    En el caso de los arreglos, para acceder a los dato que contiene un arreglo debes unsar corchetes [],
+    ejemplo:
+    
+    var numeros = [2,4,6,8,];
+    
+    Si quieres acceder al numero 6, solo escribes: numeros[2] y JS te devuelve el 6.
+
+    Para los objetos debes unsar puntos. Ejemplo:
+
+    var alumnos = {
+        nombre: "Juan",
+        apellido: "Perez",
+        inscrito: true,
+        edad: 8
+    }
+
+    Si quieres acceder a la edad, solo escribes: alumnos.edad y JS devuelve 8.
+
