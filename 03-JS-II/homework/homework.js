@@ -32,11 +32,11 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if (status === 1) {
-    return "Online" + status;
+    return "Online";
   } else if (status === 2) {
-    return "Away" + status;
+    return "Away";
   } else {
-    return "Offline" + status;
+    return "Offline";
   }
 }
 
