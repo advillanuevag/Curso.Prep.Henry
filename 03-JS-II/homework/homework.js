@@ -26,7 +26,8 @@ function mayoriaDeEdad(edad) {
 }
 
 function conection(status) {
-  //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
+  //Recibimos un estado de conexión de un usuario representado por un valor 
+  //numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
@@ -73,30 +74,19 @@ function colors(color) {
   switch (color) {
     case "blue":
       return "This is " + color;
-
       break;
-
     case "red":
       return "This is " + color;
-
       break;
-
-
     case "green":
       return "This is " + color;
-
       break;
-
     case "orange":
       return "This is " + color;
-
       break;
-
     default:
       return "Color not found";
-
       break;
-
   }
 }
 
@@ -156,10 +146,14 @@ function fizzBuzz(numero) {
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
-  //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
-  //Si alguno de los tres números es negativo, retornar ---> "Hay negativos"
-  //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
-  //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
+  //Si num1 es mayor a num2 y a num3 y además es positivo, 
+  //retornar ---> "Número 1 es mayor y positivo"
+  //Si alguno de los tres números es negativo, 
+  //retornar ---> "Hay negativos"
+  //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y 
+  //retornar el nuevo valor.
+  //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, 
+  //retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 
   if (num1 === 0 || num2 === 0 || num3 === 0) {
@@ -183,8 +177,19 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-
+  let raiz = Math.floor(Math.sqrt(numero))+1;
+  if(numero === 0 || numero === 1){
+    return false;
+  }
+  for(let i = 2; i < raiz; i++){
+    if(numero % i == 0){
+      return false;
+    }
+  }
+  return true;
 }
+
+
 
 function esVerdadero(valor) {
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
@@ -198,7 +203,8 @@ function esVerdadero(valor) {
 
 function tablaDelSeis() {
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
-  //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
+  //La función devuelve un array con los resultados de la tabla de multiplicar 
+  //del 6 en orden creciente.
   //Escribe tu código aquí
   tabla = [];
   for (i = 0; i < 11; i++) {
@@ -208,7 +214,8 @@ function tablaDelSeis() {
 }
 
 function tieneTresDigitos(numero) {
-  //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
+  //Leer un número entero y retornar true si tiene 3 dígitos. 
+  //Caso contrario, retorna false.
   //Escribe tu código aquí
   if (numero > 99 && numero < 1000) {
     return true;
@@ -217,7 +224,8 @@ function tieneTresDigitos(numero) {
 }
 
 function doWhile(numero) {
-  //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
+  //Implementar una función tal que vaya aumentando el valor recibido en 
+  //5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
   var i = 0;

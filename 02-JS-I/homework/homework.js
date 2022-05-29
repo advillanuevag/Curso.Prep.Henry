@@ -181,7 +181,8 @@ function numeroRandom() {
 }
 
 function esPositivo(numero) {
-  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
+  //La función va a recibir un entero. Devuelve como resultado una cadena de 
+  //texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
@@ -197,7 +198,8 @@ function esPositivo(numero) {
 }
 
 function agregarSimboloExclamacion(str) {
-  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
+  // Agrega un símbolo de exclamación al final de la string "str" y 
+  //devuelve una nueva string.
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
   var simbolo = "!";
@@ -207,7 +209,8 @@ function agregarSimboloExclamacion(str) {
 }
 
 function combinarNombres(firstName, lastName) {
-  // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
+  // Devuelve "nombre" y "apellido" combinados en una string y separados 
+  //por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   var suma = firstName + " " + lastName;
@@ -215,7 +218,8 @@ function combinarNombres(firstName, lastName) {
 }
 
 function obtenerSaludo(nombre) {
-  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+  // Toma la string "nombre" y concatena otras string en la cadena para 
+  //que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
   return "Hola" + " " + nombre + "!";
@@ -230,7 +234,8 @@ function obtenerAreaRectangulo(alto, ancho) {
 
 
 function retornarPerimetro(lado) {
-  //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+  //Escibe una función a la cual reciba el valor del lado de un cuadrado 
+  //y retorne su perímetro.
   //Escribe tu código aquí
   return lado * 4;
 }
@@ -252,9 +257,11 @@ function deEuroAdolar(euro) {
 
 
 function esVocal(letra) {
-  //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
-  //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
-  //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
+  //Escribe una función que reciba una letra y, si es una vocal, muestre el 
+  //mensaje “Es vocal”. 
+  //Verificar si el usuario ingresó un string de más de un carácter y, en ese 
+  //caso, informarle que no se puede procesar el dato mediante el mensaje 
+  //"Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length > 1) {
     return "Dato incorrecto"

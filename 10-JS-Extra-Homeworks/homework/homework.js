@@ -1,8 +1,8 @@
 // No cambies los nombres de las funciones.
 
 function deObjetoAmatriz(objeto) {
-  // Escribe una función que convierta un objeto en una matriz, donde cada elemento representa 
-  // un par clave-valor en forma de matriz.
+  // Escribe una función que convierta un objeto en una matriz, donde cada 
+  //elemento representa un par clave-valor en forma de matriz.
   //Ejemplo: 
   /*objeto({
       D: 1,
